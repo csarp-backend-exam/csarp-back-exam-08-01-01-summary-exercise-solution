@@ -8,6 +8,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kreta.Shared", "..\Kreta.Shared\Kreta.Shared.csproj", "{3CBB1BF1-E4C2-476C-96AA-251ED89EEE59}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A9AD320F-1245-41D4-9881-708FA0BADC26}"
+	ProjectSection(SolutionItems) = preProject
+		..\feladatok.docx = ..\feladatok.docx
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -81,6 +81,7 @@ namespace Kreta.Backend.Extensions
         public static void ConfigureServices(this IServiceCollection services)
         {
             services.AddScoped<ISchoolClassSubjectService, SchoolClassSubjectService>();
+            services.AddScoped<IExamService, ExamService>();
         }
     }
 }

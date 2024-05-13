@@ -164,7 +164,7 @@ namespace Kreta.Backend.Context
                     House=45,
                     PostalCode=6000,
                     PublicScapeID=publicSpaceId1,
-
+                }
             };
             #endregion
             #region Subject type
@@ -436,7 +436,7 @@ namespace Kreta.Backend.Context
                     FirstName="Fruzsina",
                     LastName="Fukar",
                     IsWoman=false,
-                    BirthDay=new DateTime(2019,9,9),
+                    BirthDay=new DateTime(2019,9,19),
                     PlaceOfBirth="Miskolc",
                     EducationLevelId=EducationLevelId2,
                     SchoolClassID=schoolClassId2
@@ -447,7 +447,7 @@ namespace Kreta.Backend.Context
                     FirstName="Kinga",
                     LastName="Kilógó",
                     IsWoman=false,
-                    BirthDay=new DateTime(2019,9,9),
+                    BirthDay=new DateTime(2019,9,29),
                     PlaceOfBirth="Miskolc",
                     EducationLevelId=Guid.Empty,
                     MotherId=parentId5,
@@ -456,11 +456,11 @@ namespace Kreta.Backend.Context
                 },
                                 new Student
                 {
-                    Id=studentId7,
+                    Id=studentId8,
                     FirstName="Kinga",
                     LastName="Kilógó",
                     IsWoman=false,
-                    BirthDay=new DateTime(2019,9,9),
+                    BirthDay=new DateTime(2019,10,10),
                     PlaceOfBirth="Miskolc",
                     EducationLevelId=Guid.Empty,
                     MotherId=parentId5,
@@ -545,8 +545,7 @@ namespace Kreta.Backend.Context
                     PlaceOfBirth="Kiskunfélegyháza",
                     IsWoman=false,
                     MathersName="Kifkunfélegyázi Kitti",
-                    AddressId=addressId7,
-                },
+                 },
                 new Teacher
                 {
                     Id=teacherId7,
@@ -555,18 +554,19 @@ namespace Kreta.Backend.Context
                     BirthDay=new DateTime(1997,10,13),
                     IsHeadTeacher=true,
                     PlaceOfBirth="Tenkes",
-                    IsWoman=false,
-                    MathersName="Tenkesi Tímea"
+                    IsWoman=true,
+                    MathersName="Tenkesi Tímea",
+                    AddressId=addressId7,
                 },
                 new Teacher
                 {
-                    Id=teacherId7,
+                    Id=teacherId8,
                     FirstName="Szonja",
                     LastName="Szétszort",
                     BirthDay=new DateTime(1998,3,15),
                     IsHeadTeacher=true,
                     PlaceOfBirth="Szerencs",
-                    IsWoman=false,
+                    IsWoman=true,
                     MathersName="Szombathely"
                 },
 
@@ -587,7 +587,7 @@ namespace Kreta.Backend.Context
                 },
                 new SchoolClass
                 {
-                    Id=schoolClassId4,
+                    Id=schoolClassId2,
                     SchoolYear=10,
                     SchoolClassType=SchoolClassType.ClassA,
                     YearOfEnrolment=2024,
@@ -597,7 +597,7 @@ namespace Kreta.Backend.Context
                 },
                 new SchoolClass
                 {
-                    Id=schoolClassId2,
+                    Id=schoolClassId3,
                     SchoolYear=10,
                     SchoolClassType=SchoolClassType.ClassB,
                     YearOfEnrolment=2024,
@@ -607,7 +607,7 @@ namespace Kreta.Backend.Context
                 },
                 new SchoolClass
                 {
-                    Id=schoolClassId5,
+                    Id=schoolClassId4,
                     SchoolYear=11,
                     SchoolClassType=SchoolClassType.ClassA,
                     YearOfEnrolment=2023,
@@ -617,7 +617,7 @@ namespace Kreta.Backend.Context
                 },
                 new SchoolClass
                 {
-                    Id=schoolClassId3,
+                    Id=schoolClassId5,
                     SchoolYear=14,
                     SchoolClassType=SchoolClassType.ClassB,
                     YearOfEnrolment=2024,                    
@@ -627,7 +627,7 @@ namespace Kreta.Backend.Context
                 },
                 new SchoolClass
                 {
-                    Id=schoolClassId2,
+                    Id=schoolClassId6,
                     SchoolYear=12,
                     SchoolClassType=SchoolClassType.ClassA,
                     YearOfEnrolment=2010,
